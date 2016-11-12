@@ -3,21 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-$gray-1: #f9f9f9;
-$gray-2: #ccc;
-$gray-3: #767676;
-$gray-4: #515151;
-$gray-5: #313131;
-
-$red: #ac4142;
-$orange: #d28445;
-$yellow: #f4bf75;
-$green: #90a959;
-$cyan: #75b5aa;
-$blue: #268bd2;
-// $blue: #6a9fb5;
-$brown: #8f5536;
-
+/**
+  *  FONTS
+  */
 $goofy-font-family: "Playfair Display", serif;
 
 $serif-font-family: 'Cormorant Garamond', serif;
@@ -25,12 +13,26 @@ $serif-font-family-alt: 'Eczar', serif;
 
 $sans-font-family: 'Rubik', sans-serif;
 
+/**
+  *  COLORS
+  */
+
+// https://coolors.co/3a3042-db9d47-ff784f-ffe19c-edffd9
+$primary-text:#5D5564;
+$secondary-text:#C9C6CB;
+$accent-text:#352C3C;
+$bg-text:#F7F7F7;
+
+$primary-color:#000;
+$secondary-color:#000;
+$accent-color:#000;
+
 $root-font-size: 16px;
 $root-line-height: 1.5;
 
-$body-color: #515151;
+$body-color: $primary-text;
 $body-bg: #fff;
-$link-color: $blue;
+$link-color: $accent-text;
 
 $border-color: #e5e5e5;
 
@@ -38,4 +40,4 @@ $large-breakpoint: 38em;
 $large-font-size: 21px;
 
 $code-font-family: 'Source Code Pro', monospace;
-$code-color: #bf616a;
+$code-color: #FF784F;
