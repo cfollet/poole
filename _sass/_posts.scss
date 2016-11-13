@@ -10,6 +10,14 @@
   li + li {
     margin-top: .25rem;
   }
+  .anchorjs-link{
+    color: $secondary-text;
+    border: none;
+    &:hover,
+    &:focus {
+      color: $primary-text;
+    }
+  }
 }
 
 // Blog post or page title
