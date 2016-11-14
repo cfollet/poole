@@ -10,6 +10,7 @@
   li + li {
     margin-top: .25rem;
   }
+
   .anchorjs-link{
     color: $secondary-text;
     border: none;
@@ -17,6 +18,20 @@
     &:focus {
       color: $primary-text;
     }
+  }
+}
+
+.sharing{
+  .ion-social-twitter{
+    color: #4099FF;
+  }
+  .ion-social-facebook{
+    color: #3b5998;
+  }
+  margin-bottom: 1rem;
+  a{
+    border: none;
+    padding-right: 1em;
   }
 }
 
