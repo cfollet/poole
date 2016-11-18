@@ -94,3 +94,10 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: $bg-text;
 }
+
+::selection {
+  background: #FFE19C; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFE19C; /* Gecko Browsers */
+}
