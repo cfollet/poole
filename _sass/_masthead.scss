@@ -30,9 +30,11 @@
   @media (min-width: 34em){
   float: left;
   }
+  font-family: "continuo";
+  font-size: 40px;
   margin-top: 0;
   margin-bottom: .5rem;
-  color: $secondary-text;
+  color: $primary-text;
 
   a {
     color: inherit;
