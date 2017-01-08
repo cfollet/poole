@@ -1,7 +1,7 @@
 # Poole
 
 This is an alternative version of the excellent [Poole](https://github.com/poole/poole) theme for [Jekyll](https://jekyllrb.com/).
-I made this for my [personal blog](cfollet.github.io) and to include more functionalities such as :
+I made this for my [personal blog](https://cfollet.github.io) and to include more functionalities such as :
 
 * [Disqus](https://disqus.com/) comments
 * Post read time
